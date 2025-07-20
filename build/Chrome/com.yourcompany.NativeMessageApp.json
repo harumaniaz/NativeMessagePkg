@@ -1,0 +1,9 @@
+{
+    "name": "com.yourcompany.NativeMessageApp",
+    "description": "Native Messaging Host for NativeMessageApp",
+    "path": "/Applications/NativeMessageApp.app/Contents/MacOS/NativeMessageApp",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://your-extension-id/"
+    ]
+}
