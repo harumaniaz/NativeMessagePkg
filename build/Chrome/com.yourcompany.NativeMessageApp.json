@@ -4,6 +4,6 @@
     "path": "/Applications/NativeMessageApp.app/Contents/MacOS/NativeMessageApp",
     "type": "stdio",
     "allowed_origins": [
-        "chrome-extension://your-extension-id/"
+        "chrome-extension://oomhijomeggmhfmjemnpenogdipmggmi/"
     ]
 }

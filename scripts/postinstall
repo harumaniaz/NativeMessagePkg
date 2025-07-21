@@ -10,7 +10,7 @@ echo "[postinstall] Copying JSON from app to NativeMessagingHosts..."
 if [ -f "$JSON_SRC" ]; then
     mkdir -p "$(dirname "$JSON_DEST")"
     cp "$JSON_SRC" "$JSON_DEST"
-    chmod 644 "$JSON_DEST"
+    chmod 777 "$JSON_DEST"
     echo "[postinstall] JSON successfully copied to: $JSON_DEST"
 else
     echo "[postinstall] ERROR: JSON not found at $JSON_SRC"
