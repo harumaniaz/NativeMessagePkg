@@ -1,5 +1,5 @@
 {
-    "name": "com.yourcompany.NativeMessageApp",
+    "name": "com.yourcompany.nma",
     "description": "Native Messaging Host for NativeMessageApp",
     "path": "/Applications/NativeMessageApp.app/Contents/MacOS/NativeMessageApp",
     "type": "stdio",

@@ -6,7 +6,7 @@ BUILD_DIR="build"
 APP_DIR="$BUILD_DIR/$APP_NAME"
 PKG_NAME="NativeMessageApp.pkg"
 INSTALL_LOCATION="/Applications"
-JSON_SRC="$BUILD_DIR/Chrome/com.yourcompany.NativeMessageApp.json"
+JSON_SRC="$BUILD_DIR/Chrome/com.yourcompany.nma.json"
 RESOURCES_DIR="$APP_DIR/Contents/Resources"
 
 # .app チェック

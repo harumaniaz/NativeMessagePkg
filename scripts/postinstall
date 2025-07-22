@@ -2,8 +2,8 @@
 
 # .appがインストールされた場所
 APP_PATH="/Applications/NativeMessageApp.app"
-JSON_SRC="$APP_PATH/Contents/Resources/com.yourcompany.NativeMessageApp.json"
-JSON_DEST="/Library/Google/Chrome/NativeMessagingHosts/com.yourcompany.NativeMessageApp.json"
+JSON_SRC="$APP_PATH/Contents/Resources/com.yourcompany.nma.json"
+JSON_DEST="/Library/Google/Chrome/NativeMessagingHosts/com.yourcompany.nma.json"
 
 echo "[postinstall] Copying JSON from app to NativeMessagingHosts..."
 
