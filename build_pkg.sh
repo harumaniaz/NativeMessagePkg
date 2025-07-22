@@ -22,7 +22,6 @@ if [ ! -f "$JSON_SRC" ]; then
 fi
 
 # Resourcesディレクトリ作成とJSONコピー
-rm -rf "$RESOURCES_DIR"
 mkdir -p "$RESOURCES_DIR"
 cp "$JSON_SRC" "$RESOURCES_DIR/"
 
