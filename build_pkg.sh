@@ -3,7 +3,7 @@
 # パス定義
 APP_NAME="NativeMessageApp.app"
 BUILD_DIR="build"
-APP_DIR="$BUILD_DIR/$APP_NAME"
+APP_DIR="$BUILD_DIR/app/$APP_NAME"
 PKG_NAME="NativeMessageApp.pkg"
 INSTALL_LOCATION="/Applications"
 JSON_SRC="$BUILD_DIR/Chrome/com.my.nma.json"
